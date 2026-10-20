@@ -299,7 +299,7 @@ def main(params):
     optimizer = utils.build_optimizer(model_params=ldm_decoder.parameters(), **optim_params)
 
     img_size = params.img_size
-    key_size = 128
+    key_size = 48
     
     # channels, channels_size = param_util.get_param_size(ldm_decoder.decoder)
     channels, channels_size = param_util.get_param_size_wouaf(ldm_decoder.decoder)
