@@ -1,0 +1,57 @@
+# 本次核心范围之外的对比和迁移扩展
+/wmadapter/
+/pixart_support/
+/evaluate_pixart_watermark.py
+
+# SD模型
+stable-diffusion-2-1-base
+models--CompVis--stable-diffusion-v1-4
+
+# 数据集及模型缓存（包含无扩展名权重）
+/mscoco/
+/models--*/
+/stable-diffusion-2-1-base/
+/.cache/
+/data/
+/datasets/
+
+# 运行产物
+/output/
+/outputs/
+/results/
+/logs/
+/runs/
+/tensorboard/
+/hidden/output/
+/hidden/ckpts/
+/hidden/imgs/
+/key_list.txt
+/watermark/other/key_list.txt
+/E_/
+/E:/
+/新建文件夹/
+*.log
+events.out.tfevents.*
+/.github/
+
+
+src/ldmv2
+
+# 缓存和个人环境
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.idea/
+.vscode/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+Thumbs.db
+.DS_Store
+
+# 当前根目录论文稿件及本次分析材料
+/*.pdf
+/发布分析/
