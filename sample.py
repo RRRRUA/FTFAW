@@ -75,7 +75,6 @@ def get_parser():
     aa("--output_dir", type=str, default="output/", help="Output directory for logs and images (Default: /output)")
     aa("--seed", type=int, default=1)
     aa("--debug", type=utils.bool_inst, default=False, help="Debug mode")
-
     return parser
 
 
